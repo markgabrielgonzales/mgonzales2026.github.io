@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>Tourist Spots</title>
+		<style>
+			body{
+				font-family: 'Alfa Slab One', cursive;
+				width: auto;
+				height: auto;
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:auto;
+				background-color: #222;
+				overflow:hidden;	
+			}
+			
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            ul li {
+                float: left;
+                font-family: 'Alfa Slab One', cursive;
+            }
+
+            ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 20px 100px;
+                text-decoration: none;
+            }
+
+            ul li a:hover {
+                background-color: #111;	
+            }
+			
+			ul li a.active {
+				background-color: #04AA6D;
+				color: white;
+			}
+			
+			#nav {
+				position:sticky;
+				top:0;
+			}
+			
+			#text4 {
+				width:600px;
+				position: absolute;	
+				color: white;
+				text-align: center;
+				font-size: 50px;
+				margin-top: 253px;
+				box-sizing: border-box;
+				background: rgba(0, 0, 0, 0.6);
+			}
+			#text5 {
+				width:600px;
+				position: absolute;	
+				color: white;
+				text-align: center;
+				font-size: 50px;
+				margin-left: 604px;
+				margin-top: 253px;
+				box-sizing: border-box;
+				background: rgba(0, 0, 0, 0.6);
+			}
+			#text6 {
+				width:600px;
+				position: absolute;	
+				color: white;
+				text-align: center;
+				font-size: 50px;
+				margin-left: 1209px;
+				margin-top: 253px;
+				box-sizing: border-box;
+				background: rgba(0, 0, 0, 0.6);
+			}
+			
+			#text1 {
+				width:600px;
+				position: absolute;	
+				color: white;
+				text-align: center;
+				font-size: 50px;
+				top:203px;
+				box-sizing: border-box;
+				background: rgba(0, 0, 0, 0.6);
+			}
+			
+			#text2 {
+				width:600px;
+				position: absolute;	
+				color: white;
+				text-align: center;
+				font-size: 50px;
+				top:202px;
+				left:604px;
+				box-sizing: border-box;
+				background: rgba(0, 0, 0, 0.6);
+			}
+		
+			#text3 {
+				width:600px;
+				position: absolute;	
+				color: white;
+				text-align: center;
+				font-size: 50px;
+				top:202px;
+				left:1209px;
+				box-sizing: border-box;
+				background: rgba(0, 0, 0, 0.6);
+			}
+			
+			#image-grid{
+				position:relative;
+				text-align:left;
+				margin-left: 20px;
+			}
+			
+	        #pagetitle {
+                font-family: 'Alfa Slab One', cursive;
+                font-size: 25px;
+                color: white;
+				text-align:center;
+			}
+			
+			#footer {
+				color: white;
+				margin-left:20px;
+			}
+        </style>
+    </head>
+
+	<body>
+        <div id="nav">
+             <ul>
+				<li><a href="index.html">Home</a></li>
+                <li><a href="CSQ1-Gonzales-History.html">History</a></li>
+                <li><a href="CSQ1-Gonzales-Fun-Facts.html">Fun Facts</a></li>
+                <li><a class="active" href="CSQ1-Gonzales-Places.html">Places</a></li>
+                <li><a href="CSQ1-Gonzales-About.html">About</a></li>
+              </ul>
+        </div>
+		
+            <div id="pagetitle">
+                <h1>Philippine's Greatest Attractions</h1>
+			</div>
+		<div id="image-grid">
+			<div id="column1">
+				<img src="Chocolate Hills.png" alt="architecture" height="320" width="600">
+				<img src="Banaue Rice Terraces.png" alt="architecture" height="320" width="600">
+				<img src="Puerto Princesa.png" alt="architecture" height="320" width="600">
+			<p id=text4>Taal Volcano</p>
+			<p id=text5>Boracay</p>
+			<p id=text6>Vigan</p>
+			
+			</div>
+			<div class="column2">
+				<img src="Taal Volcano.png" alt="architecture" height="320" width="600">
+				<img src="Boracay.png" alt="architecture" height="320" width="600">
+				<img src="Vigan.png" alt="architecture" height="320" width="600">
+			<p id=text1>Chocolate Hills</p>
+			<p id=text2>Banaue Rice Terraces</p>
+			<p id=text3>Puerto Princesa River</p>
+			
+			</div>
+		</div>
+        <div id="footer">
+            <p>Copyright &copy; 2022. Insert-Name Foundation. All Rights Reserved.</p>
+        </div>
+	
+	</body>
+</html>

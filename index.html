@@ -1,0 +1,120 @@
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+			<meta charset="utf-8">
+		<title>Philipedia</title>
+		<style>
+			body{
+				font-family: 'Alfa Slab One', cursive;
+				width: auto;
+				height: auto;
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:auto;
+                overflow: hidden;
+			}
+			
+            ul {
+                list-style-type: none;
+                margin: 0;
+				padding: 0;
+				overflow: hidden;
+                background-color: #333;
+            }
+
+            ul li {
+                float: left;
+                font-family: 'Alfa Slab One', cursive;
+            }
+
+            ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 20px 100px;
+                text-decoration: none;
+            }
+
+            ul li a:hover {
+				background-color: #111;
+			}
+			
+			ul li a.active {
+				background-color: #04AA6D;
+				color: white;
+			}
+			p img{
+				opacity:1;
+			}
+			
+			#nav {
+				position:sticky;
+				top:0;
+			}
+			
+			#subp {
+				position: absolute;	
+				color: white;
+				text-align: right;
+				font-size: 40px;
+				top: 485px;
+				left: 760px;
+			}
+
+			#pagetitle {
+				position: absolute;
+				font-family: 'Alfa Slab One', cursive;
+				color: white;
+				text-align: right;
+				font-size: 100px;
+				top: 300px;
+				left: 750px;
+			}
+			
+            #header {
+				background-color:rgb(0,0,0);
+				height: 910px;
+                background-position: center center;
+                background-size: cover;
+            }
+
+			#background {
+				background-image:url("Background.png");
+				opacity: 0.4;
+				height: 910px;
+                background-position: center center;
+                background-size: cover;
+            }
+
+			#img {
+				position: absolute;
+				left:350px;
+				top:200px;
+			}
+
+		</style>
+</head>
+
+	<body>
+        <div id="nav">
+             <ul>
+				<li><a class="active" href="CSQ1-Gonzales-Home.html">Home</a></li>
+                <li><a href="CSQ1-Gonzales-History.html">History</a></li>
+                <li><a href="CSQ1-Gonzales-Fun-Facts.html">Fun Facts</a></li>
+                <li><a href="CSQ1-Gonzales-Places.html">Places</a></li>
+                <li><a href="CSQ1-Gonzales-About.html">About</a></li>
+              </ul>
+        </div>
+		
+        <div id="header">
+				<div id="background"></div>
+				<p id="pagetitle">The Philippines</p>
+				<p id="subp">The fun has just started!</p>
+				<p id="img"><img src="Map.png" alt="map" height="500" width="300"></p>
+        </div>
+	
+	</body>
+</html>
